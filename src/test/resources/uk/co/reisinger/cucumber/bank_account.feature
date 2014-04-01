@@ -1,6 +1,6 @@
 Feature: Bank Account deposit and withdrawal
-  This feature shows that the bank account shows correct balance
-  after deposit and/or withdrawal
+  This feature proves that the bank account shows
+  the correct balance after deposit and/or withdrawal
 
   Scenario: Make deposit
     Given bank account with balance 0 pence
