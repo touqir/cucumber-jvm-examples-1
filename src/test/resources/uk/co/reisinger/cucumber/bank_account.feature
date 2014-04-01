@@ -1,3 +1,6 @@
+# https://github.com/cucumber/cucumber/wiki/_pages
+
+# https://github.com/cucumber/cucumber/wiki/Feature-Introduction
 Feature: Bank Account deposit and withdrawal
   This feature proves that the bank account shows
   the correct balance after deposit and/or withdrawal
@@ -7,6 +10,7 @@ Feature: Bank Account deposit and withdrawal
     When I deposit 1000 pence
     Then the balance should be 1000 pence
 
+  # https://github.com/cucumber/cucumber/wiki/Scenario-Outlines
   Scenario Outline: Multiple transactions
     Given bank account with the following transactions:
       | type | pence |
